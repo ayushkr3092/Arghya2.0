@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arghya 2.0 | Quick Links</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Favicon updated to logo.jpeg -->
+    <link rel="icon" type="image/jpeg" href="WhatsApp Image 2026-10-26 at 23.21.44.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
     <style>
-        /* Modern Animated Background matching Arghya Poster vibe */
+        /* Modern Animated Background */
         body {
             margin: 0;
             padding: 0;
@@ -29,12 +31,12 @@
 
         /* Glassmorphism Container */
         .glass-container {
-            background: rgba(0, 0, 0, 0.4);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            background: rgba(0, 0, 0, 0.45);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
             border: 1px solid rgba(255, 255, 255, 0.15);
             border-radius: 24px;
-            padding: 40px 20px;
+            padding: 40px 25px;
             width: 90%;
             max-width: 400px;
             text-align: center;
@@ -43,13 +45,13 @@
 
         /* Logo Styling */
         .logo {
-            width: 130px;
-            height: 130px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
             object-fit: cover;
-            border: 3px solid #fad165; /* Gold accent */
+            border: 3px solid #fad165; 
             margin-bottom: 15px;
-            box-shadow: 0 0 20px rgba(250, 209, 101, 0.5); /* Neon glow */
+            box-shadow: 0 0 20px rgba(250, 209, 101, 0.4); 
         }
 
         /* Typography */
@@ -67,10 +69,11 @@
 
         .subtitle {
             margin: 5px 0 30px 0;
-            font-size: 14px;
-            font-weight: 400;
-            opacity: 0.85;
+            font-size: 15px;
+            font-weight: 500;
+            opacity: 0.9;
             letter-spacing: 1px;
+            color: #e0e0e0;
         }
 
         /* Quick Links Buttons */
@@ -110,42 +113,77 @@
             color: #fad165;
         }
 
-        /* Footer */
+        /* Footer Styling */
         .footer {
             margin-top: 35px;
-            font-size: 12px;
-            opacity: 0.7;
+            font-size: 13px;
             line-height: 1.6;
+        }
+
+        .organizers {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 12px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .organizers strong {
+            color: #fad165;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .socials {
+            font-size: 13px;
+            color: #e0e0e0;
+        }
+        
+        .socials span {
+            color: #fad165;
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
 
     <div class="glass-container">
-        <!-- Bada sa logo idhar aayega -->
+        <!-- Logo Image -->
         <img src="WhatsApp Image 2026-10-26 at 23.21.44.jpeg" alt="Arghya 2.0 Logo" class="logo">
         
         <h1 class="title">ARGHYA 2.0</h1>
-        <p class="subtitle">Triveni - The Purvanchal Society</p>
+        <p class="subtitle">By Purvanchal</p>
 
-        <!-- Forms ke Quick Links -->
+        <!-- Forms Quick Links -->
         <div class="links">
             <a href="https://forms.gle/3yqfRVd6G4x2Jw9J8" class="btn" target="_blank">
                 🎤 Participant Registration
             </a>
             
             <a href="https://forms.gle/PYG8g5JjK5kKbaqZ6" class="btn" target="_blank">
-                🎟️ Free Audience Pass
+                🎟️ Audience Pass
             </a>
             
             <a href="https://forms.gle/j9VMqqi8WBuLGNfDA" class="btn special" target="_blank">
-                👑 Special Members Pass (₹151)
+                👑 Members Pass
             </a>
         </div>
 
+        <!-- Formatted Footer -->
         <div class="footer">
-            <p>Management: Ayush (+91 88822 98137)</p>
-            <p>IG: @_purvanchal_du_ | @triveni_venky_</p>
+            <div class="organizers">
+                <strong>Organisers</strong>
+                Neel Nayan: +91 9431097898<br>
+                Shivani Kumari: +91 9142803551
+            </div>
+            
+            <div class="socials">
+                <span>IG:</span> @_purvanchal_du_ <br> 
+                @triveni_venky_ | @tristhali_du
+            </div>
         </div>
     </div>
 
